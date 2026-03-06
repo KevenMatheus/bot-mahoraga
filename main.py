@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 import yt_dlp
 import asyncio
+import os
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -145,4 +146,4 @@ async def parar(ctx):
 
 # ----------------------------------------- #
 
-bot.run("MTQ3NTE4ODIzMDQ4MjY5NDE0NA.GzDbUu.MQ4soYQxIxX8KZzhHKOW4zl5LRC_eU0NNpYJm4")
+bot.run(os.getenv("MTQ3NTE4ODIzMDQ4MjY5NDE0NA.GzDbUu.MQ4soYQxIxX8KZzhHKOW4zl5LRC_eU0NNpYJm4"))
